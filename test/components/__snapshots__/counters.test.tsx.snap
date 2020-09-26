@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component construct 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      0
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Counter component construct with Provider 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      0
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      0
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      2
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      2
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Counter component construct with initialState 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      -
+    </button>
+    <span>
+      2
+    </span>
+    <button>
+      +
+    </button>
+  </div>
+</DocumentFragment>
+`;
