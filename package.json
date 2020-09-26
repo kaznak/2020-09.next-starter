@@ -28,7 +28,8 @@
   "dependencies": {
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "unstated-next": "^1.1.0"
   },
   "devDependencies": {
     "@testing-library/react": "^10.0.1",
