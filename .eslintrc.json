@@ -38,6 +38,7 @@
         "argsIgnorePattern": "^_"
       }
     ],
+    "@typescript-eslint/camelcase": "warn",
     "no-console": [
       2,
       {
