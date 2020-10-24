@@ -11,17 +11,13 @@ export default function Page() {
       {!session && (
         <>
           Not signed in <br />
-          {/** !!TODO!! remove following
-           * @ts-ignore */}
-          <button onClick={signIn}>Sign in</button>
+          <button onClick={(e) => signIn()}>Sign in</button>
         </>
       )}
       {session && (
         <>
           Signed in as {session.user.email} <br />
-          {/** !!TODO!! remove following
-           * @ts-ignore */}
-          <button onClick={signOut}>Sign out</button>
+          <button onClick={(e) => signOut()}>Sign out</button>
         </>
       )}
     </>
