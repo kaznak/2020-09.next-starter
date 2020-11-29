@@ -1,0 +1,27 @@
+import { createContext } from 'react'
+import { AppProps } from 'next/app'
+import { SSRProvider, Provider, defaultTheme } from '@adobe/react-spectrum'
+
+const ThemeContext = createContext('light');
+
+const App = (appProps: AppProps) => {
+  const { Component, pageProps } = appProps
+  const locale = 'ja-JP'
+  return (
+    <SSRProvider>
+      <Provider
+        theme={defaultTheme}
+        locale={locale}
+        colorScheme="light"
+        minWidth="100vw"
+        minHeight="100vh"
+        position="absolute"
+        top={0}
+      >
+        <Component {...pageProps} />
+      </Provider>
+    </SSRProvider>
+  )
+}
+
+export default App
